@@ -1,0 +1,41 @@
+/* ********** STATE - NEUTRAL ********** */
+
+.navigation {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  transform: translateY(-100vh);
+  transition: transform 0.35s 0.1s linear;
+  z-index: 100;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation__item {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #282b21;
+  opacity: 0.95;
+}
+
+.navigation__link {
+  display: inline-block;
+  width: 100vw;
+  color: #d7dad8;
+  text-decoration: none;
+}
+
+.navigation__flag {
+  margin: 17.5px 15px;
+}
+
+/* ********** STATE - ACTIVE ********** */
+
+.navigation--active {
+  transform: translateY(0);
+}
