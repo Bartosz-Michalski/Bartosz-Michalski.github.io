@@ -4,10 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strona Główna || Bartosz Michalski</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script&family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="menu/hamburger.css" />
+    <link rel="stylesheet" type="text/css" href="menu/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="./button/button.css" />
   </head>
+  <header class="home">
+    <section class="wrapper-top home__wrapper">
+      <span class="wrapper-top__logo">Bartosz Michalski</span>
+      <button class="hamburger wrapper-top__hamburger">
+        <span class="hamburger__container">
+          <span class="hamburger__inner"></span>
+        </span>
+      </button>
+    </section>
+
+    <nav class="navigation wrapper-top__navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">HOME</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">ABOUT ME</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">SKILLS</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">APPROACH</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">PORTFOLIO</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">CONTACT</a>
+        </li>
+        <li class="navigation__item">
+          <img class="navigation__flag" src="./img/flag-poland.png" alt="" />
+          <img class="navigation__flag" src="./img/flag-uk.png" alt="" />
+        </li>
+      </ul>
+    </nav>
+
+    <section class="wrapper-middle home__wrapper">
+      <p class="wrapper-middle__text">Hello, my name is<span class="wrapper-middle__text--green">Bartosz</span>.</p>
+      <p class="wrapper-middle__text">I am <span class="wrapper-middle__text--green">the Frontend Developer</span>.</p>
+    </section>
+
+    <section class="wrapper-bottom home__wrapper">
+      <p class="wrapper-bottom__qoute"><span class="wrapper-bottom__qoute-mark">“</span>Life would be much easier</p>
+      <p class="wrapper-bottom__qoute">if I had the source code</p>
+      <p class="wrapper-bottom__qoute-author">~ Someone wise</p>
+      <button class="button wrapper-bottom__button button--green">My projects with source code</button>
+      <button class="button wrapper-bottom__button button--transparent">Send a message</button>
+    </section>
+
+    <section class="wrapper-vector home__wrapper">
+      <img class="wrapper-vector__vector-down" src="./img/vector-down.png" alt="" />
+      <img class="wrapper-vector__vector-down wrapper-vector__vector-down--higher" src="./img/vector-down.png" alt="" />
+    </section>
+  </header>
+  <main></main>
+  <footer></footer>
   <body>
     <script src="main.js"></script>
+    <script src="menu/hamburger.js"></script>
   </body>
 </html>
