@@ -1,0 +1,64 @@
+/* ********** BTN ********** */
+
+.button {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: #d7dad8;
+  cursor: pointer;
+}
+
+/* ********** BTN--GREEN ********** */
+
+.button--green {
+  border: #788462 1px solid;
+  background-color: #788462;
+  transition: all 0.3s ease;
+}
+
+.button--green:hover,
+.button--green:active {
+  border: #d7dad8 1px solid;
+  background-color: transparent;
+  color: #d7dad8;
+}
+
+/* ********** BTN--TRANSPARENT ********** */
+
+.button--transparent {
+  z-index: 1;
+  position: relative;
+  border: #d7dad8 1px solid;
+  background-color: transparent;
+  transition: ease-out 0.3s;
+}
+
+.button--transparent:hover,
+.button--transparent:active {
+  border: #788462 1px solid;
+  color: #d7dad8;
+}
+
+.button--transparent:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background-color: #788462;
+  transition: all 0.3s ease;
+  opacity: 0;
+  content: "";
+}
+
+.button--transparent:hover:before,
+.button--transparent:active:before {
+  z-index: -1;
+  left: 0;
+  right: 0;
+  border: #788462 1px solid;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
