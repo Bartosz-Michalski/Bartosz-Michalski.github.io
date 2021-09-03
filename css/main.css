@@ -140,7 +140,7 @@
 /* ********** ARTICLE ********** */
 
 .article__icon {
-  width: 100px;
+  width: 94px;
   cursor: pointer;
   -webkit-user-drag: none;
   z-index: 1;
@@ -170,6 +170,7 @@
   font-family: "Libre Baskerville", sans-serif;
   font-size: 16px;
   text-align: center;
+  color: #313525;
 }
 
 .article__heading--on-green-background {
