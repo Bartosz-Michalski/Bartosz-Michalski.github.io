@@ -1,4 +1,4 @@
-/* ********** HOME ********** */
+/* ********** HEADER ********** */
 
 .home {
   height: 100vh;
@@ -91,23 +91,34 @@
   bottom: 20px;
 }
 
-/* ********** ABOUT ME ********** */
+/* ********** MAIN ********** */
 
-.about-me {
-  margin: 0 20px;
+.main__section {
+  padding: 0 20px;
 }
 
-.about-me__container {
+.main__section--on-green-background {
+  position: relative;
+  background-color: #a3a585;
+}
+
+.section__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
+
+/* ********** TITLE ********** */
 
 .title__heading {
   font-size: 30px;
   color: #313525;
+}
+
+.title__heading--on-green-background {
+  color: #ffffff;
 }
 
 .title__description {
@@ -121,7 +132,13 @@
   color: #a3a585;
 }
 
-.about-me__icon {
+.title__description--on-green-background {
+  color: #d7dad8;
+}
+
+/* ********** ARTICLE ********** */
+
+.article__icon {
   width: 100px;
   cursor: pointer;
   -webkit-user-drag: none;
@@ -143,14 +160,25 @@
   }
 }
 
-.about-me__icon--animate {
+.article__icon--animate {
   animation: animate 1.5s alternate linear;
 }
 
-.about-me__text {
+.article__heading {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.article__text {
   line-height: 24px;
   text-align: justify;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 14px;
   color: #313525;
+}
+
+.article__text--on-green-background {
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
