@@ -182,3 +182,63 @@
   color: #ffffff;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
+
+/* ********** CLIPPING ********** */
+
+.clipping {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 65%;
+  height: 30%;
+  background: url("/img/others/clipping-white.png") no-repeat;
+  background-size: contain;
+}
+
+.clipping__item {
+  position: absolute;
+  height: 34px;
+  -webkit-user-drag: none;
+}
+
+.clipping__item--html-5 {
+  top: 245px;
+  left: -4px;
+}
+
+.clipping__item--css-3 {
+  top: 145px;
+  left: -4px;
+}
+
+.clipping__item--sass {
+  top: 34px;
+  left: 40px;
+}
+
+.clipping__item--git {
+  width: 45px;
+  height: 25px;
+  top: 112px;
+  left: 2px;
+}
+
+.clipping__item--typescript {
+  top: 78px;
+  left: 34px;
+}
+
+.clipping__item--javascript {
+  top: 22px;
+}
+
+.clipping__item--react {
+  top: 64px;
+  left: -2px;
+}
+
+.clipping__item--firebase {
+  width: 18px;
+  height: 30px;
+  top: 195px;
+}
