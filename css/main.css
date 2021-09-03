@@ -16,7 +16,7 @@
 }
 
 .wrapper-top--active {
-  border-bottom: 1px #d7dad8 solid;
+  border-bottom: 1px #d7dad8 groove;
   background-color: #282b21;
   transition: all 0.2s 0.2s linear;
   opacity: 0.95;
@@ -89,4 +89,68 @@
 
 .wrapper-vector__vector-down--higher {
   bottom: 20px;
+}
+
+/* ********** ABOUT ME ********** */
+
+.about-me {
+  margin: 0 20px;
+}
+
+.about-me__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.title__heading {
+  font-size: 30px;
+  color: #313525;
+}
+
+.title__description {
+  width: 80%;
+  margin: 0;
+  border-bottom: 1px solid #d7dad8;
+  padding: 10px;
+  text-align: center;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 14px;
+  color: #a3a585;
+}
+
+.about-me__icon {
+  width: 100px;
+  cursor: pointer;
+  -webkit-user-drag: none;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  55% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+    transform: rotateZ(0deg);
+  }
+}
+
+.about-me__icon--animate {
+  animation: animate 1.5s alternate linear;
+}
+
+.about-me__text {
+  line-height: 24px;
+  text-align: justify;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 14px;
+  color: #313525;
 }
