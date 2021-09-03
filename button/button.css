@@ -6,7 +6,7 @@
   padding: 10px 8px;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
-  color: #d7dad8;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -20,9 +20,9 @@
 
 .button--green:hover,
 .button--green:active {
-  border: #d7dad8 1px solid;
+  border: #ffffff 1px solid;
   background-color: transparent;
-  color: #d7dad8;
+  color: #ffffff;
 }
 
 /* ********** BTN--TRANSPARENT ********** */
@@ -38,7 +38,7 @@
 .button--transparent:hover,
 .button--transparent:active {
   border: #788462 1px solid;
-  color: #d7dad8;
+  color: #ffffff;
 }
 
 .button--transparent:before {
