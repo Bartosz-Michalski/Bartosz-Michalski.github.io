@@ -247,3 +247,9 @@
   height: 30px;
   top: 195px;
 }
+
+.forest {
+  height: 400px;
+  background: url("/img/forest-working-gradient.png") no-repeat center;
+  background-size: cover;
+}
