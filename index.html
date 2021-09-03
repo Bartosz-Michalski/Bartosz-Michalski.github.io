@@ -6,7 +6,7 @@
     <title>Strona Główna || Bartosz Michalski</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script&family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script&family=Open+Sans&family=Libre+Baskerville&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="menu/hamburger.css" />
@@ -64,14 +64,36 @@
     </section>
 
     <section class="wrapper-vector home__wrapper">
-      <img class="wrapper-vector__vector-down" src="./img/vector-down.png" alt="" />
-      <img class="wrapper-vector__vector-down wrapper-vector__vector-down--higher" src="./img/vector-down.png" alt="" />
+      <img class="wrapper-vector__vector-down" src="./img/vector-down-icon.png" alt="" />
+      <img class="wrapper-vector__vector-down wrapper-vector__vector-down--higher" src="./img/vector-down-icon.png" alt="" />
     </section>
   </header>
-  <main></main>
+  <main class="main">
+    <section class="about-me main__about-me">
+      <div class="title about-me__container">
+        <h1 class="title__heading">ABOUT ME</h1>
+        <p class="title__description">Few words about me</p>
+      </div>
+
+      <div class="about-me__container">
+        <img class="about-me__icon" src="./img/graduate-icon.png" alt="" />
+        <p class="about-me__text">In a high school, I attended a mathematics and computer science class. As a teenager, I coded my first static pages based on HTML and CSS technologies. However, when I went to college, I decided to choose finances as my way of life. Currently, I have a master's degree as a financial analyst. But ...</p>
+      </div>
+
+      <div class="about-me__container">
+        <img class="about-me__icon" src="./img/bulb-icon.png" alt="" />
+        <p class="about-me__text">I have always considered myself an esthete, sensitive to beauty, someone who attracts attention to details. The above features, combined with a strict, even analytical mind, in my opinion create the perfect combination for being a frontend developer.</p>
+      </div>
+
+      <div class="about-me__container">
+        <img class="about-me__icon" src="./img/keyboard-icon.png" alt="" />
+        <p class="about-me__text">In the middle of 2020, I decided to go back to what gives me satisfaction and what really makes me happy at work. To refresh my knowledge and learn about modern trends in the world of frontend, I chose an intensive bootcamp, which lasted several months and classes were held every day. Since then, I have been honing my workshop to become a <b>full-fledged frontend developer.</b></p>
+      </div>
+    </section>
+  </main>
   <footer></footer>
   <body>
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
     <script src="menu/hamburger.js"></script>
   </body>
 </html>
