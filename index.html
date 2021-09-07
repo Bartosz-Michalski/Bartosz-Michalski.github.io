@@ -7,11 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script&family=Open+Sans&family=Libre+Baskerville&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" href="./menu/hamburger.css" />
-    <link rel="stylesheet" type="text/css" href="./menu/navigation.css" />
-    <link rel="stylesheet" type="text/css" href="./button/button.css" />
+    <link rel="stylesheet" type="text/css" href="./components/menu/hamburger.css" />
+    <link rel="stylesheet" type="text/css" href="./components/menu/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="./components/buttons/button.css" />
+    <link rel="stylesheet" type="text/css" href="./components/carousel/carousel.css">
+    <link rel="stylesheet" type="text/css" href="./components/article/article.css">
   </head>
   <header class="home">
     <section class="wrapper-top home__wrapper">
@@ -92,7 +95,7 @@
       </article>
     </section>
 
-    <section class="section main__section main__section--on-green-background">
+    <section class="section main__section main__section--on-green-background main__section--rollable">
       <div class="clipping section__clipping">
         <img class="clipping__item clipping__item--html-5" src="./img/logos/html-5-logo.png" alt="" />
         <img class="clipping__item clipping__item--css-3" src="./img/logos/css-3-logo.png" alt="" />
@@ -142,7 +145,7 @@
 
     <section class="forest main__section"></section>
 
-    <section class="section main__section">
+    <section class="section main__section main__section--rollable">
       <div class="title section__container">
         <h1 class="title__heading">APPROACH</h1>
         <p class="title__description">My approach to the Front-end Development</p>
@@ -205,7 +208,13 @@
 
   <footer></footer>
   <body>
-    <script src="./js/main.js"></script>
-    <script src="./menu/hamburger.js"></script>
+    <script src="./js/main.js" type="module"></script>
+    <script src="./components/menu/hamburger.js"></script>
+    <script src="./components/menu/navigation.js"></script>
+    <script src="./components/vector-down/vector-down.js"></script>
+    <script src="./components/article/article-accordin.js"></script>
+    <script src="./components/carousel/carousel.js"></script>
+    <script src="./components/carousel/slide-list.js"></script>
+
   </body>
 </html>
