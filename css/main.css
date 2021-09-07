@@ -16,7 +16,7 @@
 }
 
 .wrapper-top--active {
-  border-bottom: 1px #d7dad8 groove;
+  border-bottom: 1px #ffffff groove;
   background-color: #282b21;
   transition: all 0.2s 0.2s linear;
   opacity: 0.95;
@@ -25,7 +25,7 @@
 .wrapper-top__logo {
   font-family: "Kaushan Script", cursive;
   font-size: 18px;
-  color: #d7dad8;
+  color: #ffffff;
 }
 
 .wrapper-middle {
@@ -39,7 +39,7 @@
   line-height: 32px;
   font-family: "Oleo Script", cursive;
   font-size: 26px;
-  color: #d7dad8;
+  color: #ffffff;
 }
 
 .wrapper-middle__text--green {
@@ -58,7 +58,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 18px;
-  color: #d7dad8;
+  color: #ffffff;
 }
 
 .wrapper-bottom__qoute-mark {
@@ -75,7 +75,7 @@
   margin-top: 5px;
   font-family: "Oleo Script", cursive;
   font-size: 19px;
-  color: #d7dad8;
+  color: #ffffff;
 }
 
 .wrapper-vector__vector-down {
@@ -94,7 +94,7 @@
 /* ********** MAIN ********** */
 
 .main__section {
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .main__section--on-green-background {
@@ -107,25 +107,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 25px;
+  /* padding-bottom: 30px; */
 }
 
 /* ********** TITLE ********** */
 
 .title__heading {
   font-family: "Libre Baskerville", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   color: #313525;
 }
 
 .title__heading--on-green-background {
   color: #ffffff;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .title__description {
   width: 80%;
   margin: 0;
-  border-bottom: 1px solid #d7dad8;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eef3f0;
   padding: 10px;
   text-align: center;
   font-family: "Libre Baskerville", sans-serif;
@@ -134,71 +136,18 @@
 }
 
 .title__description--on-green-background {
-  color: #d7dad8;
-}
-
-/* ********** ARTICLE ********** */
-
-.article__icon {
-  width: 94px;
-  cursor: pointer;
-  -webkit-user-drag: none;
-  z-index: 1;
-}
-
-@keyframes animate {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(360deg);
-  }
-  55% {
-    transform: rotateZ(360deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-    transform: rotateZ(0deg);
-  }
-}
-
-.article__icon--animate {
-  animation: animate 1.5s alternate linear;
-}
-
-.article__heading {
-  font-family: "Libre Baskerville", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  color: #313525;
-}
-
-.article__heading--on-green-background {
-  color: #ffffff;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-
-.article__text {
-  line-height: 24px;
-  text-align: justify;
-  font-family: "Libre Baskerville", sans-serif;
-  font-size: 14px;
-  color: #313525;
-}
-
-.article__text--on-green-background {
-  color: #ffffff;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  color: #eef3f0;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 /* ********** CLIPPING ********** */
 
 .clipping {
   position: absolute;
-  top: -40px;
+  top: -38px;
   left: 0;
-  width: 65%;
-  height: 30%;
+  width: 235px;
+  height: 490px;
   background: url("/img/others/clipping-white.png") no-repeat;
   background-size: contain;
 }
