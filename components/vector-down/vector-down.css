@@ -1,14 +1,33 @@
 /* ********** VECTOR DOWN ********** */
-
-.wrapper-vector__vector-down {
+.wrapper-vector {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   width: 30px;
+  height: 30px;
+  animation: bounce 1.8s infinite;
+}
+
+.wrapper-vector__vector-down {
+  position: absolute;
+  bottom: 5px;
+  width: 30px;
   height: 15px;
 }
 
 .wrapper-vector__vector-down--higher {
-  bottom: 20px;
+  bottom: 16px;
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 10px;
+  }
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 10px;
+  }
 }
