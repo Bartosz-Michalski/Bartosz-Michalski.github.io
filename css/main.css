@@ -78,19 +78,6 @@
   color: #ffffff;
 }
 
-.wrapper-vector__vector-down {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 15px;
-}
-
-.wrapper-vector__vector-down--higher {
-  bottom: 20px;
-}
-
 /* ********** MAIN ********** */
 
 .main__section {
