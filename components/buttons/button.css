@@ -25,6 +25,12 @@
   color: #ffffff;
 }
 
+.button--on-white-background:hover,
+.button--on-white-background:active {
+  border: #788462 1px solid;
+  color: #788462;
+}
+
 /* ********** BTN--TRANSPARENT ********** */
 
 .button--transparent {
