@@ -1,12 +1,13 @@
-/* ********** STATE - NEUTRAL ********** */
+/* ********** NAVIGATION LIST STATE - NEUTRAL ********** */
 
 .navigation {
-  position: absolute;
+  position: fixed;
+  top: 51px;
   left: 0;
   width: 100vw;
   transform: translateY(-100vh);
   transition: transform 0.35s 0.1s linear;
-  z-index: 100;
+  z-index: 2;
 }
 
 .navigation__list {
@@ -34,7 +35,7 @@
   margin: 17.5px 15px;
 }
 
-/* ********** STATE - ACTIVE ********** */
+/* ********** NAVIGATION LIST STATE - ACTIVE ********** */
 
 .navigation--active {
   transform: translateY(0);
