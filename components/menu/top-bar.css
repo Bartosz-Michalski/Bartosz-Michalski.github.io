@@ -27,7 +27,7 @@
 .wrapper-top--active {
   border-bottom: 1px #ffffff groove;
   background-color: #282b21;
-  transition: background-color 0.2s 0.2s linear, opacity 0.2s 0.2s linear, border-bottom 0.3s 0.5s ease-in;
+  transition: background-color 0.2s 0.2s linear, opacity 0.2s 0.2s linear, border-bottom 0.2s 0.5s ease-in;
   /* transition: all 0.2s 0.2s linear; */
   opacity: 0.95;
 }
