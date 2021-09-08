@@ -6,28 +6,6 @@
   background-repeat: no-repeat;
 }
 
-.wrapper-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 40px;
-  border-bottom: 1px transparent solid;
-  padding: 10px 20px;
-}
-
-.wrapper-top--active {
-  border-bottom: 1px #ffffff groove;
-  background-color: #282b21;
-  transition: all 0.2s 0.2s linear;
-  opacity: 0.95;
-}
-
-.wrapper-top__logo {
-  font-family: "Kaushan Script", cursive;
-  font-size: 18px;
-  color: #ffffff;
-}
-
 .wrapper-middle {
   position: absolute;
   top: 200px;
