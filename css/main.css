@@ -79,12 +79,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding-bottom: 30px; */
 }
 
 /* ********** TITLE ********** */
 
 .title__heading {
+  margin: 20px 0 10px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 22px;
   color: #313525;
@@ -97,8 +97,7 @@
 
 .title__description {
   width: 80%;
-  margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border-bottom: 1px solid #eef3f0;
   padding: 10px;
   text-align: center;

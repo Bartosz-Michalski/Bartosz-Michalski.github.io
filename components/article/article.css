@@ -2,6 +2,7 @@
 
 .article__icon {
   width: 80px;
+  margin: 10px;
   cursor: pointer;
   -webkit-user-drag: none;
   z-index: 1;
@@ -62,6 +63,7 @@
 }
 
 .article__text {
+  margin-bottom: 28px;
   line-height: 24px;
   text-align: justify;
   font-family: "Libre Baskerville", sans-serif;
