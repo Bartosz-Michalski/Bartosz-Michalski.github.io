@@ -57,7 +57,7 @@
       </nav>
 
       <section class="wrapper-middle home__wrapper">
-        <p class="wrapper-middle__text">Hello, my name is<span class="wrapper-middle__text--green">Bartosz</span>.</p>
+        <p class="wrapper-middle__text">Hello, my name is <span class="wrapper-middle__text--green">Bartosz</span>.</p>
         <p class="wrapper-middle__text">I am <span class="wrapper-middle__text--green">the Frontend Developer</span>.</p>
       </section>
 
@@ -215,13 +215,16 @@
           <p class="title__description">Feel free to contact me</p>
         </div>
 
-        <form class="form section__container" id="contact" action="">
-          <label class="form__label" for="contact-name" form="contact">Name</label>
-          <input class="form__input" id="contact-name" type="text" form="contact" required>
-          <label class="form__label" for="contact-email" form="contact">Email address</label>
-          <input class="form__input" id="contact-email" type="email" form="contact" required>
-          <label class="form__label" for="contact-message" form="contact">Message</label>
-          <textarea class="form__input" name="" id="contact-message" cols="30" rows="10" form="contact" required></textarea>
+        <form class="form section__container" id="form-contact" name="form-contact" action="">
+          <label class="form__label" for="contact-name" form="form-contact">Name</label>
+          <input class="form__input" id="contact-name" name="name" type="text" form="form-contact" required>
+
+          <label class="form__label" for="contact-email" form="form-contact">Email address</label>
+          <input class="form__input" id="contact-email" name="email" type="email" form="form-contact" required>
+
+          <label class="form__label" for="contact-message" form="form-contact">Message</label>
+          <textarea class="form__input" id="contact-message" name="message" cols="30" rows="10" form="form-contact" required></textarea>
+
           <button class="button form__button button--green button--on-white-background">Send message</button>
         </form>
       </section>
