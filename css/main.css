@@ -176,3 +176,16 @@
   background: url("/img/forest-working-gradient.png") no-repeat center;
   background-size: cover;
 }
+
+.copyright {
+  padding: 20px;
+  background-color: #a3a585;
+}
+
+.copyright__item {
+  line-height: 24px;
+  text-align: center;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}
