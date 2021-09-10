@@ -5,21 +5,21 @@
   /* font-family: "Libre Baskerville", sans-serif; */
 }
 
-/* ********** HEADER ********** */
+/* ********** MAIN ********** */
 
-.home {
+.main__section--home {
   height: 100vh;
   background: linear-gradient(180deg, rgba(3, 3, 3, 0.424219) 40%, rgba(68, 67, 67, 0.45) 114%), url(../img/home-background.png) center;
   background-repeat: no-repeat;
 }
 
-.wrapper-middle {
+.hello {
   position: absolute;
   top: 200px;
   left: 20px;
 }
 
-.wrapper-middle__text {
+.hello__text {
   margin: 0;
   line-height: 32px;
   font-family: "Oleo Script", cursive;
@@ -27,17 +27,17 @@
   color: #ffffff;
 }
 
-.wrapper-middle__text--green {
+.hello__text--green {
   color: #91a57d;
 }
 
-.wrapper-bottom {
+.qoute {
   position: absolute;
   bottom: 60px;
   left: 20px;
 }
 
-.wrapper-bottom__qoute {
+.qoute__text {
   margin: 0;
   line-height: 24px;
   font-family: "Open Sans", sans-serif;
@@ -46,7 +46,7 @@
   color: #ffffff;
 }
 
-.wrapper-bottom__qoute-mark {
+.qoute__mark {
   position: absolute;
   top: 3px;
   left: -16px;
@@ -56,14 +56,12 @@
   color: #91a57d;
 }
 
-.wrapper-bottom__qoute-author {
+.qoute__author {
   margin-top: 5px;
   font-family: "Oleo Script", cursive;
   font-size: 19px;
   color: #ffffff;
 }
-
-/* ********** MAIN ********** */
 
 .main__section {
   padding: 20px;

@@ -1,4 +1,4 @@
-const vectorWrapper = document.querySelector(".wrapper-vector");
+const vectorWrapper = document.querySelector(".vector-down");
 const aboutMePosition = document.querySelector(".main__section[name='about-me']").offsetTop;
 
 vectorWrapper.addEventListener("click", () => {

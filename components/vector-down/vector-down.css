@@ -1,5 +1,5 @@
 /* ********** VECTOR DOWN ********** */
-.wrapper-vector {
+.vector-down {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -10,14 +10,14 @@
   cursor: pointer;
 }
 
-.wrapper-vector__vector-down {
+.vector-down__item {
   position: absolute;
   bottom: 5px;
   width: 30px;
   height: 15px;
 }
 
-.wrapper-vector__vector-down--higher {
+.vector-down__item--higher {
   bottom: 16px;
 }
 

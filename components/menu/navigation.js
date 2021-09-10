@@ -14,9 +14,9 @@ let lastScroll = 0;
 
 const topBarSticky = () => {
   const currentScroll = window.pageYOffset;
-  const topBar = document.querySelector(".wrapper-top");
+  const topBar = document.querySelector(".top-bar");
 
-  if (!topBar.classList.contains("wrapper-top--active")) {
+  if (!topBar.classList.contains("top-bar--active")) {
     if (currentScroll <= 0) {
       document.body.classList.remove("scroll-up");
     } else if (currentScroll > lastScroll && !document.body.classList.contains("scroll-down")) {

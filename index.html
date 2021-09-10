@@ -19,17 +19,18 @@
     <link rel="stylesheet" type="text/css" href="./components/form/form.css">
   </head>
   <body>
-    <header class="home">
-      <section class="wrapper-top home__wrapper">
-        <span class="wrapper-top__logo">Bartosz Michalski</span>
-        <button class="hamburger wrapper-top__hamburger">
+    <header class="header">
+
+      <section class="top-bar header__section">
+        <span class="top-bar__logo">Bartosz Michalski</span>
+        <button class="hamburger top-bar__hamburger">
           <span class="hamburger__container">
             <span class="hamburger__inner"></span>
           </span>
         </button>
       </section>
 
-      <nav class="navigation wrapper-top__navigation">
+      <nav class="navigation header__section">
         <ul class="navigation__list">
           <li class="navigation__item">
             <a class="navigation__link" name="home">HOME</a>
@@ -56,26 +57,37 @@
         </ul>
       </nav>
 
-      <section class="wrapper-middle home__wrapper">
-        <p class="wrapper-middle__text">Hello, my name is <span class="wrapper-middle__text--green">Bartosz</span>.</p>
-        <p class="wrapper-middle__text">I am <span class="wrapper-middle__text--green">the Frontend Developer</span>.</p>
-      </section>
-
-      <section class="wrapper-bottom home__wrapper">
-        <p class="wrapper-bottom__qoute"><span class="wrapper-bottom__qoute-mark">“</span>Life would be much easier</p>
-        <p class="wrapper-bottom__qoute">if I had the source code</p>
-        <p class="wrapper-bottom__qoute-author">~ Someone wise</p>
-       <button class="button wrapper-bottom__button button--green">My projects with source code</button>
-        <button class="button wrapper-bottom__button button--transparent">Send me a message</button>
-      </section>
-
-      <section class="wrapper-vector home__wrapper">
-        <img class="wrapper-vector__vector-down" src="./img/icons/vector-down-icon.png" alt="" />
-        <img class="wrapper-vector__vector-down wrapper-vector__vector-down--higher" src="./img/icons/vector-down-icon.png" alt="" />
-      </section>
     </header>
 
     <main class="main">
+
+      <section class="section main__section--home" name="home">
+
+        <div class="hello">
+          <p class="hello__text">Hello, my name is 
+            <span class="hello__text--green">Bartosz</span>.
+          </p>
+          <p class="hello__text">I am 
+            <span class="hello__text--green">the Frontend Developer</span>.
+          </p>
+        </div>
+
+        <div class="qoute">
+          <p class="qoute__text">
+            <span class="qoute__mark">“</span>Life would be much easier
+          </p>
+          <p class="qoute__text">if I had the source code</p>
+          <p class="qoute__author">~ Someone wise</p>
+          <button class="button qoute__button button--green">My projects with source code</button>
+          <button class="button qoute__button button--transparent">Send me a message</button>
+        </div>
+
+        <div class="vector-down">
+          <img class="vector-down__item" src="./img/icons/vector-down-icon.png" alt="" />
+          <img class="vector-down__item vector-down__item--higher" src="./img/icons/vector-down-icon.png" alt="" />
+        </div>
+      </section>
+
       <section class="section main__section" name="about-me">
         <div class="title section__container">
           <h1 class="title__heading">ABOUT ME</h1>
@@ -233,13 +245,16 @@
           <button class="button form__button button--green button--on-white-background">Send message</button>
         </form>
       </section>
+
     </main>
 
     <footer class="footer">
+
       <section class="copyright footer__section">
         <p class="copyright__item">Copyright <i class="far fa-copyright"></i> 2021 Bartosz Michalski. </p>
         <p class="copyright__item">All Rights Reserved </p>
       </section>
+
     </footer>
   
     <script src="./js/main.js" type="module"></script>
