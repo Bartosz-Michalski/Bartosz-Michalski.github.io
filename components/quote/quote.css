@@ -12,7 +12,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 18px;
-  color: #ffffff;
+  color: var(--clr-white);
 }
 
 .qoute__mark {
@@ -22,12 +22,12 @@
   font-family: "Oleo Script", cursive;
   font-size: 40px;
   font-weight: 500;
-  color: #91a57d;
+  color: var(--clr-hello-green);
 }
 
 .qoute__author {
   margin-top: 5px;
   font-family: "Oleo Script", cursive;
   font-size: 19px;
-  color: #ffffff;
+  color: var(--clr-white);
 }

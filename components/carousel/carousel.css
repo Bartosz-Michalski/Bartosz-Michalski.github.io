@@ -30,7 +30,7 @@
   width: 260px;
   margin: 15px;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: var(--clr-white);
   box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -38,7 +38,7 @@
 .slide__text {
   margin: 5px 10px 15px;
   font-family: "Libre Baskerville", sans-serif;
-  color: #ffffff;
+  color: var(--clr-white);
 }
 
 .slide__title {
@@ -62,12 +62,12 @@
 
 .slide__anchor {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--clr-white);
 }
 
 .slide__anchor:link,
 .slide__anchor:visited {
-  color: #ffffff;
+  color: var(--clr-white);
 }
 
 i {

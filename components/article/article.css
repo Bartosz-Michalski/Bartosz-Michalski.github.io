@@ -54,11 +54,11 @@
   font-family: "Libre Baskerville", sans-serif;
   font-size: 15px;
   text-align: center;
-  color: #313525;
+  color: var(--clr-dark-green);
 }
 
 .article__heading--on-green-background {
-  color: #eef3f0;
+  color: var(--clr-white);
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -68,7 +68,7 @@
   text-align: justify;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 13.5px;
-  color: #313525;
+  color: var(--clr-dark-green);
 }
 
 .main__section--rollable .article__text {
@@ -83,6 +83,6 @@
 }
 
 .article__text--on-green-background {
-  color: #ffffff;
+  color: var(--clr-white);
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
 }

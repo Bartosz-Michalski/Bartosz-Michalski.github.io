@@ -20,14 +20,14 @@
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: #282b21;
+  background-color: var(--clr-nav-background);
   opacity: 0.95;
 }
 
 .navigation__link {
   display: inline-block;
   width: 100vw;
-  color: #ffffff;
+  color: var(--clr-white);
   text-decoration: none;
 }
 

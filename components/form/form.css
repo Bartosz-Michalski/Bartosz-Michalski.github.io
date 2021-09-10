@@ -9,28 +9,28 @@
   margin: 16px 0 7px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 13.5px;
-  color: #313525;
+  color: var(--clr-dark-green);
 }
 
 .form__input {
   min-width: 300px;
   max-width: 300px;
   max-height: 250px;
-  border: 1.9px #788462 solid;
+  border: 1.9px solid var(--clr-green);
   border-radius: 5px;
   padding: 8px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 13.5px;
-  color: #313525;
+  color: var(--clr-dark-green);
   outline: none;
 }
 
 .form__input:focus {
-  background-color: #eeeee6;
+  background-color: var(--clr-white-green);
 }
 
 .form__input--bad-validation {
-  border: 1.9px solid rgb(226, 0, 0);
+  border: 1.9px solid var(--clr-bad-validation);
 }
 
 .form__button {
@@ -42,5 +42,5 @@
   margin-top: 4px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 11.5px;
-  color: rgb(226, 0, 0);
+  color: var(--clr-bad-validation);
 }

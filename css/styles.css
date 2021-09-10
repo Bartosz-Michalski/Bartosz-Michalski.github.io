@@ -13,7 +13,7 @@
 
 .main__section--on-green-background {
   position: relative;
-  background-color: #a3a585;
+  background-color: var(--clr-light-green);
 }
 
 .main__section--home {
@@ -41,33 +41,33 @@
   margin: 20px 0 10px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 22px;
-  color: #313525;
+  color: var(--clr-dark-green);
 }
 
 .title__heading--on-green-background {
-  color: #ffffff;
+  color: var(--clr-white);
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .title__description {
   width: 80%;
   margin-bottom: 25px;
-  border-bottom: 1px solid #eef3f0;
+  border-bottom: 1px solid var(--clr-description-underline);
   padding: 10px;
   text-align: center;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 14px;
-  color: #a3a585;
+  color: var(--clr-light-green);
 }
 
 .title__description--on-green-background {
-  color: #eef3f0;
+  color: var(--clr-white-green);
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .copyright {
   padding: 20px;
-  background-color: #a3a585;
+  background-color: var(--clr-light-green);
 }
 
 .copyright__item {
@@ -75,5 +75,5 @@
   text-align: center;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 12px;
-  color: #ffffff;
+  color: var(--clr-white);
 }

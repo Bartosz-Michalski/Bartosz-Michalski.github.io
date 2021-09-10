@@ -1,0 +1,15 @@
+/* ********** VARIABLES ********** */
+:root {
+  --clr-dark-green: #313525;
+  --clr-green: #788462;
+  --clr-light-green: #a3a585;
+
+  --clr-white-green: #eeeee6;
+  --clr-white: #ffffff;
+
+  /* Specials */
+  --clr-nav-background: #282b21;
+  --clr-hello-green: #91a57d;
+  --clr-description-underline: #d1d1b7;
+  --clr-bad-validation: #e20000;
+}

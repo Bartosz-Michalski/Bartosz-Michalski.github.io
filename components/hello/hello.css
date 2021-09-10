@@ -11,9 +11,9 @@
   line-height: 32px;
   font-family: "Oleo Script", cursive;
   font-size: 26px;
-  color: #ffffff;
+  color: var(--clr-white);
 }
 
 .hello__text--green {
-  color: #91a57d;
+  color: var(--clr-hello-green);
 }
