@@ -6,7 +6,7 @@
 }
 
 .form__label {
-  margin: 7px 0;
+  margin: 16px 0 7px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 13.5px;
   color: #313525;
@@ -16,15 +16,31 @@
   min-width: 300px;
   max-width: 300px;
   max-height: 250px;
-  margin-bottom: 18px;
-  border: 1px #788462 solid;
+  border: 1.9px #788462 solid;
   border-radius: 5px;
   padding: 8px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 13.5px;
   color: #313525;
+  outline: none;
+}
+
+.form__input:focus {
+  background-color: #eeeee6;
+}
+
+.form__input--bad-validation {
+  border: 1.9px solid rgb(226, 0, 0);
 }
 
 .form__button {
   width: 100%;
+}
+
+.form__error {
+  height: 14px;
+  margin-top: 4px;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 11.5px;
+  color: rgb(226, 0, 0);
 }
