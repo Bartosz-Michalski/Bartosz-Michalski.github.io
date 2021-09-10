@@ -1,6 +1,6 @@
 const arrowLeft = document.querySelector(".carousel__arrow--left");
 const arrowRight = document.querySelector(".carousel__arrow--right");
-const slideTitle = document.querySelector(".slide__title");
+const slideTitle = document.querySelector(".slide__heading");
 const slideText = document.querySelector(".slide__text");
 const slideImg = document.querySelector(".slide__img");
 const slideAnchorPage = document.querySelector(".slide__anchor--page");

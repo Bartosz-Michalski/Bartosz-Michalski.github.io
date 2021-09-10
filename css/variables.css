@@ -1,5 +1,6 @@
 /* ********** VARIABLES ********** */
 :root {
+  /* Colors - Standard */
   --clr-dark-green: #313525;
   --clr-green: #788462;
   --clr-light-green: #a3a585;
@@ -7,9 +8,17 @@
   --clr-white-green: #eeeee6;
   --clr-white: #ffffff;
 
-  /* Specials */
+  /* Colors- Specials */
   --clr-nav-background: #282b21;
   --clr-hello-green: #91a57d;
   --clr-description-underline: #d1d1b7;
   --clr-bad-validation: #e20000;
+
+  /* Font size - Standard */
+  --font-size-small: 11.5px;
+  --font-size-big: 18px;
+  --font-size-bigger: 22px;
+
+  /* Font size - Specials */
+  --font-size-heading: 15px;
 }

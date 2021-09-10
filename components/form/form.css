@@ -7,8 +7,6 @@
 
 .form__label {
   margin: 16px 0 7px;
-  font-family: "Libre Baskerville", sans-serif;
-  font-size: 13.5px;
   color: var(--clr-dark-green);
 }
 
@@ -19,8 +17,6 @@
   border: 1.9px solid var(--clr-green);
   border-radius: 5px;
   padding: 8px;
-  font-family: "Libre Baskerville", sans-serif;
-  font-size: 13.5px;
   color: var(--clr-dark-green);
   outline: none;
 }
@@ -40,7 +36,6 @@
 .form__error {
   height: 14px;
   margin-top: 4px;
-  font-family: "Libre Baskerville", sans-serif;
-  font-size: 11.5px;
+  font-size: var(--font-size-small);
   color: var(--clr-bad-validation);
 }

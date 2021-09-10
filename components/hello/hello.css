@@ -10,7 +10,7 @@
   margin: 0;
   line-height: 32px;
   font-family: "Oleo Script", cursive;
-  font-size: 26px;
+  font-size: var(--font-size-bigger);
   color: var(--clr-white);
 }
 

@@ -18,7 +18,7 @@
 
 .top-bar__logo {
   font-family: "Kaushan Script", cursive;
-  font-size: 18px;
+  font-size: var(--font-size-big);
   color: var(--clr-white);
 }
 

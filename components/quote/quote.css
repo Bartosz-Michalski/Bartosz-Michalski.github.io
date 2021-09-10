@@ -1,21 +1,21 @@
 /* ********** QUOTE ********** */
 
-.qoute {
+.quote {
   position: absolute;
   bottom: 60px;
   left: 20px;
 }
 
-.qoute__text {
+.quote__text {
   margin: 0;
   line-height: 24px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--clr-white);
 }
 
-.qoute__mark {
+.quote__mark {
   position: absolute;
   top: 3px;
   left: -16px;
@@ -25,9 +25,9 @@
   color: var(--clr-hello-green);
 }
 
-.qoute__author {
+.quote__author {
   margin-top: 5px;
   font-family: "Oleo Script", cursive;
-  font-size: 19px;
+  font-size: var(--font-size-big);
   color: var(--clr-white);
 }

@@ -34,21 +34,19 @@
   box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
-.slide__title,
+.slide__heading,
 .slide__text {
   margin: 5px 10px 15px;
-  font-family: "Libre Baskerville", sans-serif;
   color: var(--clr-white);
 }
 
-.slide__title {
-  font-size: 15px;
+.slide__heading {
+  font-size: var(--font-size-heading);
 }
 
 .slide__text {
   height: 220px;
   line-height: 24px;
-  font-size: 13.5px;
   text-align: justify;
 }
 
@@ -61,6 +59,7 @@
 }
 
 .slide__anchor {
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: var(--clr-white);
 }
