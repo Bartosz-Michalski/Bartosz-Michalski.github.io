@@ -25,6 +25,10 @@
   color: #ffffff;
 }
 
+.button--on-white-background {
+  margin: 16px 0;
+}
+
 .button--on-white-background:hover,
 .button--on-white-background:active {
   border: #788462 1px solid;
