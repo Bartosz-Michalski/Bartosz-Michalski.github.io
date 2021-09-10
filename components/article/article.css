@@ -2,7 +2,6 @@
 
 .article__icon {
   width: 80px;
-  margin: 10px;
   cursor: pointer;
   -webkit-user-drag: none;
   z-index: 1;
@@ -51,6 +50,7 @@
 }
 
 .article__heading {
+  margin-top: 12px;
   font-family: "Libre Baskerville", sans-serif;
   font-size: 15px;
   text-align: center;
@@ -63,7 +63,7 @@
 }
 
 .article__text {
-  margin-bottom: 28px;
+  margin: 12px 0 28px;
   line-height: 24px;
   text-align: justify;
   font-family: "Libre Baskerville", sans-serif;
