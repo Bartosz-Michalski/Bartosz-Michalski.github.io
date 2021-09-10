@@ -7,62 +7,6 @@
 
 /* ********** MAIN ********** */
 
-.main__section--home {
-  height: 100vh;
-  background: linear-gradient(180deg, rgba(3, 3, 3, 0.424219) 40%, rgba(68, 67, 67, 0.45) 114%), url(../img/home-background.png) center;
-  background-repeat: no-repeat;
-}
-
-.hello {
-  position: absolute;
-  top: 200px;
-  left: 20px;
-}
-
-.hello__text {
-  margin: 0;
-  line-height: 32px;
-  font-family: "Oleo Script", cursive;
-  font-size: 26px;
-  color: #ffffff;
-}
-
-.hello__text--green {
-  color: #91a57d;
-}
-
-.qoute {
-  position: absolute;
-  bottom: 60px;
-  left: 20px;
-}
-
-.qoute__text {
-  margin: 0;
-  line-height: 24px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  color: #ffffff;
-}
-
-.qoute__mark {
-  position: absolute;
-  top: 3px;
-  left: -16px;
-  font-family: "Oleo Script", cursive;
-  font-size: 40px;
-  font-weight: 500;
-  color: #91a57d;
-}
-
-.qoute__author {
-  margin-top: 5px;
-  font-family: "Oleo Script", cursive;
-  font-size: 19px;
-  color: #ffffff;
-}
-
 .main__section {
   padding: 20px;
 }
@@ -70,6 +14,18 @@
 .main__section--on-green-background {
   position: relative;
   background-color: #a3a585;
+}
+
+.main__section--home {
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(3, 3, 3, 0.424219) 40%, rgba(68, 67, 67, 0.45) 114%), url(../img/home-background.png) center;
+  background-repeat: no-repeat;
+}
+
+.main__section--forest-background {
+  height: 400px;
+  background: url("/img/forest-working-gradient.png") no-repeat center;
+  background-size: cover;
 }
 
 .section__container {
@@ -107,72 +63,6 @@
 .title__description--on-green-background {
   color: #eef3f0;
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
-}
-
-/* ********** CLIPPING ********** */
-
-.clipping {
-  position: absolute;
-  top: -38px;
-  left: 0;
-  width: 235px;
-  height: 490px;
-  background: url("/img/others/clipping-white.png") no-repeat;
-  background-size: contain;
-}
-
-.clipping__item {
-  position: absolute;
-  height: 34px;
-  -webkit-user-drag: none;
-}
-
-.clipping__item--html-5 {
-  top: 245px;
-  left: -4px;
-}
-
-.clipping__item--css-3 {
-  top: 145px;
-  left: -4px;
-}
-
-.clipping__item--sass {
-  top: 34px;
-  left: 40px;
-}
-
-.clipping__item--git {
-  width: 45px;
-  height: 25px;
-  top: 112px;
-  left: 2px;
-}
-
-.clipping__item--typescript {
-  top: 78px;
-  left: 34px;
-}
-
-.clipping__item--javascript {
-  top: 22px;
-}
-
-.clipping__item--react {
-  top: 64px;
-  left: -2px;
-}
-
-.clipping__item--firebase {
-  width: 18px;
-  height: 30px;
-  top: 195px;
-}
-
-.forest {
-  height: 400px;
-  background: url("/img/forest-working-gradient.png") no-repeat center;
-  background-size: cover;
 }
 
 .copyright {

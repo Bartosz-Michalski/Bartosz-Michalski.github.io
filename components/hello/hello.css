@@ -1,0 +1,19 @@
+/* ********** HELLO ********** */
+
+.hello {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+
+.hello__text {
+  margin: 0;
+  line-height: 32px;
+  font-family: "Oleo Script", cursive;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.hello__text--green {
+  color: #91a57d;
+}

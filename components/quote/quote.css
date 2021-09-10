@@ -1,0 +1,33 @@
+/* ********** QUOTE ********** */
+
+.qoute {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+}
+
+.qoute__text {
+  margin: 0;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.qoute__mark {
+  position: absolute;
+  top: 3px;
+  left: -16px;
+  font-family: "Oleo Script", cursive;
+  font-size: 40px;
+  font-weight: 500;
+  color: #91a57d;
+}
+
+.qoute__author {
+  margin-top: 5px;
+  font-family: "Oleo Script", cursive;
+  font-size: 19px;
+  color: #ffffff;
+}
