@@ -26,7 +26,7 @@
 }
 
 .quote__author {
-  margin-top: 5px;
+  margin: 5px 0 10px;
   font-family: "Oleo Script", cursive;
   font-size: var(--font-size-big);
   color: var(--clr-white);
