@@ -3,8 +3,8 @@ const arrowRight = document.querySelector(".carousel__arrow--right");
 const slideTitle = document.querySelector(".slide__heading");
 const slideText = document.querySelector(".slide__text");
 const slideImg = document.querySelector(".slide__img");
-const slideAnchorPage = document.querySelector(".slide__anchor--page");
-const slideAnchorSourceCode = document.querySelector(".slide__anchor--source-code");
+const slideAnchorPage = document.querySelector(".button__anchor--page");
+const slideAnchorSourceCode = document.querySelector(".button__anchor--source-code");
 
 let activeSlide = 0;
 

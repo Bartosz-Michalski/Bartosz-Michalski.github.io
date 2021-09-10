@@ -58,17 +58,6 @@
   flex: 1 1 auto;
 }
 
-.slide__anchor {
-  font-family: "Open Sans", sans-serif;
-  text-decoration: none;
-  color: var(--clr-white);
-}
-
-.slide__anchor:link,
-.slide__anchor:visited {
-  color: var(--clr-white);
-}
-
 i {
   padding-right: 5px;
 }

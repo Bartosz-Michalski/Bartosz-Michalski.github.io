@@ -9,6 +9,17 @@
   cursor: pointer;
 }
 
+.button__anchor {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+.button__anchor:link,
+.button__anchor:visited {
+  color: var(--clr-white);
+}
+
 /* ********** BTN--GREEN ********** */
 
 .button--green {
