@@ -3,13 +3,17 @@
 .button {
   margin: 5px;
   border-radius: 5px;
-  padding: 10px 8px;
+  /* padding: 10px 8px; */
   font-family: "Open Sans", sans-serif;
   color: var(--clr-white);
   cursor: pointer;
 }
 
 .button__anchor {
+  display: block;
+  height: 100%;
+  padding: 10px 8px;
+  line-height: 100%;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: var(--clr-white);
@@ -37,6 +41,7 @@
 
 .button--on-white-background {
   margin: 16px 0;
+  padding: 10px 8px;
 }
 
 .button--on-white-background:hover,
