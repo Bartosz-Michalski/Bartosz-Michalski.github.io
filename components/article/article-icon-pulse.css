@@ -23,8 +23,12 @@
   opacity: 0.35;
 }
 
+.main__section--on-green-background .article__icon-wrapper--pulse::before {
+  opacity: 0.6;
+}
+
 .article__icon-wrapper--pulse::before {
-  animation: pulse 3.5s ease-out infinite;
+  animation: pulse 3s ease-out infinite;
 }
 
 @keyframes pulse {
