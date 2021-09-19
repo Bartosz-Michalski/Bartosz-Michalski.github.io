@@ -23,6 +23,13 @@
   outline: none;
 }
 
+.form__input--text-area {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 750px;
+  height: 36vh;
+}
+
 .form__input:focus {
   background-color: var(--clr-white-green);
 }
