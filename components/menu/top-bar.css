@@ -42,3 +42,33 @@
   box-shadow: 6px 0px 12px var(--clr-nav-background);
   opacity: 0.95;
 }
+
+@media screen and (min-width: 600px) {
+  .top-bar {
+    padding: 15px 40px;
+  }
+
+  .top-bar__logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .top-bar {
+    padding: 15px 60px;
+  }
+
+  .top-bar__logo {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .top-bar {
+    padding: 15px 100px;
+  }
+
+  .top-bar__logo {
+    font-size: 22px;
+  }
+}
