@@ -29,10 +29,12 @@
   width: 100vw;
   color: var(--clr-white);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navigation__flag {
   margin: 17.5px 15px;
+  cursor: pointer;
 }
 
 /* ********** NAVIGATION LIST STATE - ACTIVE ********** */
