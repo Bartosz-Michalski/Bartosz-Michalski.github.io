@@ -157,6 +157,10 @@ i {
   .slide__content {
     line-height: 30px;
   }
+
+  .slide__heading {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 900px) {
