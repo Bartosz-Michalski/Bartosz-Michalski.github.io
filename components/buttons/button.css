@@ -87,3 +87,25 @@
   transition: all 0.3s ease;
   opacity: 1;
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 769px) {
+  .button__anchor {
+    padding: 12px;
+  }
+
+  .button--on-white-background {
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .button__anchor {
+    padding: 15px;
+  }
+
+  .button--on-white-background {
+    padding: 15px;
+  }
+}
