@@ -42,6 +42,8 @@
   }
 }
 
+/* ********** MEDIA QUERIES ********** */
+
 @media screen and (min-width: 769px) {
   .article__icon-wrapper--pulse::before {
     top: 6px;
