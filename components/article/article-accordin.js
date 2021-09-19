@@ -1,7 +1,5 @@
 const icons = document.querySelectorAll(".main__section--rollable .article__icon");
 
-const iconRotate = () => {};
-
 icons.forEach((icon) => {
   icon.addEventListener("click", () => {
     const iconWrapper = icon.parentElement;
@@ -19,7 +17,6 @@ icons.forEach((icon) => {
       articleText.style.transition = `max-height ${transitionDuration}s linear, opacity ${transitionDuration}s ${transitionDelay}s linear`;
       articleText.classList.toggle("article__text--visible");
 
-      //Icon Animate - RotateIn
       iconPulse(iconWrapper);
       icon.classList.add("article__icon--rotate-in");
       setTimeout(() => {
@@ -29,7 +26,6 @@ icons.forEach((icon) => {
       articleText.style.transition = `max-height ${transitionDuration}s ${transitionDelay}s linear, opacity ${transitionDuration}s linear`;
       articleText.classList.toggle("article__text--visible");
 
-      //Icon Animate - RotateOut
       icon.classList.add("article__icon--rotate-out");
       setTimeout(() => {
         icon.classList.remove("article__icon--rotate-out");
