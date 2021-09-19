@@ -59,3 +59,11 @@
 .hamburger--active .hamburger__inner::after {
   transform: translateY(-10px) rotate(-45deg);
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 1025px) {
+  .hamburger {
+    display: none;
+  }
+}
