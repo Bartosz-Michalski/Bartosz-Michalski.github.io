@@ -2,7 +2,7 @@
 
 .clipping {
   position: absolute;
-  top: -38px;
+  top: -20px;
   left: 0;
   width: 235px;
   height: 490px;
@@ -56,4 +56,24 @@
   width: 18px;
   height: 30px;
   top: 195px;
+}
+
+.clipping__item--redux {
+  display: none;
+}
+
+.clipping__item--babel {
+  display: none;
+}
+
+.clipping__item--webpack {
+  display: none;
+}
+
+.clipping__item--eslint {
+  display: none;
+}
+
+.clipping__item--prettier {
+  display: none;
 }
