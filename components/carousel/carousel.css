@@ -76,3 +76,149 @@
 i {
   padding-right: 5px;
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 300px) {
+  .slide__content {
+    min-height: 380px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .slide__content {
+    min-height: 295px;
+  }
+}
+
+@media screen and (min-width: 385px) {
+  .slide__content {
+    min-height: 270px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .slide__button-container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 445px) {
+  .slide__content {
+    min-height: 240px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .carousel {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .slide__content {
+    min-height: 215px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .carousel {
+    width: 82%;
+  }
+
+  .carousel__arrow--right {
+    right: -50px;
+  }
+
+  .carousel__arrow--left {
+    left: -50px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .carousel {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .carousel {
+    width: 74%;
+  }
+
+  .carousel__arrow--right {
+    right: -60px;
+  }
+
+  .carousel__arrow--left {
+    left: -60px;
+  }
+
+  .slide__content {
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .carousel {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .carousel {
+    width: 66%;
+  }
+
+  .slide__heading {
+    font-size: 18px;
+  }
+
+  .slide__content {
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .carousel {
+    width: 62%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel {
+    width: 58%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .carousel {
+    width: 54%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .carousel {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .carousel {
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .carousel {
+    width: 42%;
+  }
+
+  .slide__content {
+    line-height: 34px;
+  }
+
+  .slide__heading {
+    font-size: 20px;
+  }
+}
