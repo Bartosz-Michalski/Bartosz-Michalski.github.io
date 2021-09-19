@@ -17,3 +17,40 @@
 .hello__text--green {
   color: var(--clr-hello-green);
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 600px) {
+  .hello {
+    top: 260px;
+    left: 40px;
+  }
+
+  .hello__text {
+    line-height: 40px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hello {
+    top: 300px;
+    left: 60px;
+  }
+  .hello__text {
+    line-height: 44px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .hello {
+    top: 340px;
+    left: 100px;
+  }
+
+  .hello__text {
+    line-height: 55px;
+    font-size: 45px;
+  }
+}
