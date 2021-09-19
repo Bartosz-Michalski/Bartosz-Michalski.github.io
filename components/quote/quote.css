@@ -31,3 +31,65 @@
   font-size: 19px;
   color: var(--clr-white);
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 600px) {
+  .quote {
+    left: 40px;
+  }
+
+  .quote__text {
+    line-height: 30px;
+    font-size: 19px;
+  }
+
+  .quote__mark {
+    left: -25px;
+    font-size: 55px;
+  }
+
+  .quote__author {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .quote {
+    left: 60px;
+  }
+
+  .quote__text {
+    line-height: 34px;
+    font-size: 21px;
+  }
+
+  .quote__mark {
+    left: -30px;
+    font-size: 65px;
+  }
+
+  .quote__author {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .quote {
+    left: 100px;
+  }
+
+  .quote__text {
+    line-height: 36px;
+    font-size: 22px;
+  }
+
+  .quote__mark {
+    left: -35px;
+    font-size: 75px;
+  }
+
+  .quote__author {
+    font-size: 23px;
+  }
+}
