@@ -24,3 +24,19 @@
   color: white;
   padding: 5px;
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 769px) {
+  .arrow-up__button {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .arrow-up__button {
+    width: 55px;
+    height: 55px;
+  }
+}
