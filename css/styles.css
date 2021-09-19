@@ -92,6 +92,10 @@ html {
 /* ********** MEDIA QUERIES ********** */
 
 @media screen and (min-width: 600px) {
+  .main__section--forest-background {
+    height: 480px;
+  }
+
   .title {
     margin: 25px 0 60px;
   }
@@ -102,6 +106,14 @@ html {
 }
 
 @media screen and (min-width: 769px) {
+  * {
+    font-size: 14.5px;
+  }
+
+  .main__section--forest-background {
+    background-attachment: fixed;
+  }
+
   .title__heading {
     font-size: 23px;
   }
@@ -112,6 +124,14 @@ html {
 }
 
 @media screen and (min-width: 1025px) {
+  * {
+    font-size: 15px;
+  }
+
+  .main__section--home {
+    background-size: cover;
+  }
+
   .title__heading {
     font-size: 26px;
   }
@@ -122,6 +142,10 @@ html {
 }
 
 @media screen and (min-width: 1600px) {
+  * {
+    font-size: 15.5px;
+  }
+
   .title__heading {
     font-size: 28px;
   }
