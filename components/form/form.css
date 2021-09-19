@@ -45,3 +45,85 @@
   font-size: var(--font-size-small);
   color: var(--clr-bad-validation);
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 500px) {
+  .form {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .form {
+    width: 82%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .form {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .form {
+    width: 74%;
+  }
+
+  .form__input {
+    min-height: 45px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .form {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .form {
+    width: 66%;
+  }
+
+  .form__input {
+    min-height: 52px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .form {
+    width: 62%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 58%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .form {
+    width: 54%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .form {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .form {
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .form {
+    width: 42%;
+  }
+}
