@@ -88,3 +88,45 @@ html {
   font-size: var(--font-size-small);
   color: var(--clr-white);
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 600px) {
+  .title {
+    margin: 25px 0 60px;
+  }
+
+  .title__description {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .title__heading {
+    font-size: 23px;
+  }
+
+  .title__description {
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .title__heading {
+    font-size: 26px;
+  }
+
+  .title__description {
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .title__heading {
+    font-size: 28px;
+  }
+
+  .title__description {
+    line-height: 34px;
+  }
+}
