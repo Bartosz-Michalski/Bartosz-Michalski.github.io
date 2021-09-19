@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 
-.hamburger__container {
+.hamburger__wrapper {
   position: relative;
   display: inline-block;
   width: 36px;
