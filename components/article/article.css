@@ -41,8 +41,7 @@
 }
 
 .article__heading {
-  margin-top: 12px;
-  font-size: var(--font-size-heading);
+  font-size: 15.5px;
   text-align: center;
   color: var(--clr-dark-green);
 }
