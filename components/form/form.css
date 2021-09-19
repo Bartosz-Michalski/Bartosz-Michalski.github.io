@@ -13,9 +13,6 @@
 
 .form__input {
   width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  max-height: 250px;
   border: 1.9px solid var(--clr-green);
   border-radius: 5px;
   padding: 8px;
