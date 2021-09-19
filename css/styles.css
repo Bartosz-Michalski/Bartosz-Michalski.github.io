@@ -7,13 +7,17 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Libre Baskerville", sans-serif;
-  font-size: 13.5px;
+  font-size: 14px;
 }
 
 /* ********** MAIN ********** */
 
 .main__section {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 25px;
 }
 
 .main__section--on-green-background {
@@ -28,6 +32,7 @@ html {
 }
 
 .main__section--forest-background {
+  min-height: 400px;
   height: 400px;
   background: url("/img/forest-working-gradient.png") no-repeat center;
   background-size: cover;
@@ -42,9 +47,14 @@ html {
 
 /* ********** SECTION TITLE ********** */
 
+.title {
+  min-width: 275px;
+  margin: 25px 0 45px;
+  gap: 10px;
+}
+
 .title__heading {
-  margin: 20px 0 10px;
-  font-size: var(--font-size-bigger);
+  font-size: 22.5px;
   color: var(--clr-dark-green);
 }
 
@@ -55,11 +65,10 @@ html {
 
 .title__description {
   width: 80%;
-  margin-bottom: 25px;
   border-bottom: 1px solid var(--clr-description-underline);
-  padding: 10px;
+  padding: 10px 20px;
+  line-height: 28px;
   text-align: center;
-  font-size: 14px;
   color: var(--clr-light-green);
 }
 
