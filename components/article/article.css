@@ -51,8 +51,6 @@
 }
 
 .article__text {
-  margin: 12px 0 28px;
-  line-height: 24px;
   text-align: justify;
   color: var(--clr-dark-green);
 }
