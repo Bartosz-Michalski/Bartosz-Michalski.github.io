@@ -43,6 +43,8 @@
   opacity: 0.95;
 }
 
+/* ********** MEDIA QUERIES ********** */
+
 @media screen and (min-width: 600px) {
   .top-bar {
     padding: 15px 40px;
