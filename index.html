@@ -58,8 +58,8 @@
               <a class="navigation__link" name="contact">CONTACT</a>
             </li>
             <li class="navigation__item">
-              <img class="navigation__flag navigation__flag--poland" src="./img/flags/flag-poland.png" alt="" />
-              <img class="navigation__flag navigation__flag--uk" src="./img/flags/flag-uk.png" alt="" />
+              <img class="navigation__flag navigation__flag--poland" data-language="polish" src="./img/flags/flag-poland.png" alt="" />
+              <img class="navigation__flag navigation__flag--uk" data-language="english" src="./img/flags/flag-uk.png" alt="" />
             </li>
           </ul>
         </nav>
@@ -68,7 +68,7 @@
 
     <main class="main">
       <section class="section main__section main__section--home" name="home">
-        <div class="hello">
+        <div class="hello section__hello">
           <p class="hello__text">Hello, my name is 
             <span class="hello__text hello__text--green">Bartosz</span>.
           </p>
@@ -77,7 +77,7 @@
           </p>
         </div>
 
-        <div class="quote">
+        <div class="quote section__quote">
           <p class="quote__text">
             <span class="quote__mark">“</span>Life would be much easier
           </p>
@@ -91,7 +91,7 @@
           </button>
         </div>
 
-        <div class="vector-down">
+        <div class="vector-down section__vector-down">
           <img class="vector-down__item" src="./img/icons/vector-down-icon.png" alt="" />
           <img class="vector-down__item vector-down__item--higher" src="./img/icons/vector-down-icon.png" alt="" />
         </div>
@@ -253,16 +253,16 @@
         </div>
       </section>
 
-      <section id="portfolio" class="section main__section main__section--on-green-background" name="portfolio">
+      <section class="section main__section main__section--on-green-background" id="portfolio" name="portfolio">
         <div class="title section__container">
           <h1 class="title__heading title__heading--on-green-background">PORTFOLIO</h1>
           <p class="title__description title__description--on-green-background">Projects that came out of my hands</p>
         </div>
 
-        <div class="carousel">
+        <div class="carousel section__carousel">
           <img class="carousel__arrow carousel__arrow--left" src="./img/icons/arrow-left-icon.png" alt="" />
           <div class="slide carousel__slide">
-            <img src="img/mockup-zaadoptuj-programiste.png" class="slide__img"></img>
+            <img class="slide__img" src="img/mockup-zaadoptuj-programiste.png"></img>
             <div class="slide__content">
               <h3 class="slide__heading">"Zaadoptuj Programiste" App</h3>
               <p class="slide__text">This project is being created by me and my two friends, using ReactJS. It is a web application which allows to register a new user. Each user can create and publish their own projects, describe them in detail and specify team members they are looking for or search for existing project created by someone else and apply.</p>
