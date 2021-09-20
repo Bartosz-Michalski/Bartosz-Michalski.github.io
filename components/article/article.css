@@ -23,15 +23,6 @@
   z-index: 1;
 }
 
-.article__icon-wrapper .article__icon {
-  cursor: pointer;
-  transition: transform 0.15s linear;
-}
-
-.article__icon-wrapper .article__icon:hover {
-  transform: scale(1.2);
-}
-
 .article__content {
   display: flex;
   flex-direction: column;
@@ -140,6 +131,15 @@
   .article__icon {
     width: 95px;
     height: 95px;
+  }
+
+  .article__icon--increase {
+    cursor: pointer;
+    transition: transform 0.15s linear;
+  }
+
+  .article__icon--increase:hover {
+    transform: scale(1.2);
   }
 
   .article__content {
