@@ -2,7 +2,7 @@
 
 .navigation {
   position: fixed;
-  top: 56px;
+  top: 55px;
   left: 0;
   width: 100vw;
   transform: translateY(-100vh);
