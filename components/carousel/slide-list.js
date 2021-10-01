@@ -14,8 +14,8 @@ const slideList = [
     sourceCode: "https://github.com/Bartosz-Michalski/layouts-projects/tree/master/src/klient-poczty",
   },
   {
-    title: "To Do App",
-    text: "Text 3",
+    title: `"To Do List" App`,
+    text: "CRUD-style application - Create, Read, Update, Delete. Enables: adding tasks to the list; updating tasks status, i.e. moving between lists with finished and unfinished tasks; deleting single tasks separately for the list with unfinished and finished tasks; clearing the entire list separately with unfinished and finished tasks.",
     img: "../../img/mocks/mockup-to-do-app.png",
     address: "https://bartosz-michalski.github.io/sm-project12-to-do-app/exercise4/index.html",
     sourceCode: "https://github.com/Bartosz-Michalski/sm-project12-to-do-app",
